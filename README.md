@@ -10,4 +10,4 @@ You can find the thesis report on the following page:
 https://placeholder.com/
 
 ![Interface 1 - Advanced view](/Screenshots/Interface%202/Use%20Case%20Example%20Start%20Page%20(overview).png "Screenshot of the advanced view in interface 1 for the use case 'Break-in protection'")
-![Interface 2 - Overview](/Screenshots/Interface 2/Use Case Example Start Page (overview).png "Screenshot of the overview in interface 2 for the use case 'Break-in protection'")
+![Interface 2 - Overview](/Screenshots/Interface+2/Use+Case+Example+Start+Page+(overview).png "Screenshot of the overview in interface 2 for the use case 'Break-in protection'")
