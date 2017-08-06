@@ -1,0 +1,22 @@
+{
+    "configs": [
+        {
+            "id": 1,
+            "next-unique-id": 1,
+            "name": "New Config",
+            "devicesOnMap": [],
+            "rules": [
+                {
+                    "actions": [],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "rule-name": "New rule",
+                    "schedule": "Always on",
+                    "triggers": []
+                }
+            ]
+        }
+    ],
+    "presets": [
+    ]
+}

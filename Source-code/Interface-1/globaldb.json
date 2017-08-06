@@ -1,0 +1,756 @@
+{
+    "configs": [
+        {
+            "id": 1,
+            "next-unique-id": 9,
+            "name": "Use case #1",
+            "devicesOnMap": [],
+            "rules": [
+                {
+                    "actions": [
+                        {
+                            "action-id": 4,
+                            "device-id": "cam1",
+                            "device-property": "record",
+                            "action": "Record"
+                        },
+                        {
+                            "action-id": 5,
+                            "device-id": "cam2",
+                            "device-property": "record",
+                            "action": "Record"
+                        },
+                        {
+                            "action-id": 6,
+                            "device-id": "cam3",
+                            "device-property": "record",
+                            "action": "Record"
+                        },
+                        {
+                            "action-id": 7,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "test@gmail.com"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Record -&gt; send email on movement",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 1,
+                            "device-id": "cam1",
+                            "device-property": "pir",
+                            "trigger": "PIR",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 2,
+                            "device-id": "cam2",
+                            "device-property": "pir",
+                            "trigger": "PIR",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 3,
+                            "device-id": "cam3",
+                            "device-property": "pir",
+                            "trigger": "PIR",
+                            "data": "",
+                            "parent": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "next-unique-id": 23,
+            "name": "Use case #2",
+            "devicesOnMap": [],
+            "rules": [
+                {
+                    "actions": [
+                        {
+                            "action-id": 3,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "security@e.mail"
+                        },
+                        {
+                            "action-id": 4,
+                            "device-id": "cam1",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 5,
+                            "device-id": "cam1",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "Flash every 1 second"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "New rule",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 1,
+                            "device-id": "cam1",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 2,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "5 min",
+                            "parent": 0
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 10,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "security@e.mail"
+                        },
+                        {
+                            "action-id": 11,
+                            "device-id": "cam2",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 12,
+                            "device-id": "cam2",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "Flash every 1 second"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "New rule",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 6,
+                            "device-id": "cam2",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 7,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "5 min",
+                            "parent": 0
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 15,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "security@e.mail"
+                        },
+                        {
+                            "action-id": 16,
+                            "device-id": "cam3",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 17,
+                            "device-id": "cam3",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "Flash every 1 second"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "New rule",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 13,
+                            "device-id": "cam3",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 14,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "5 min",
+                            "parent": 0
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 20,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "security@e.mail"
+                        },
+                        {
+                            "action-id": 21,
+                            "device-id": "cam4",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 22,
+                            "device-id": "cam4",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "Flash every 1 second"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "New rule",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 18,
+                            "device-id": "cam4",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 19,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "5 min",
+                            "parent": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "next-unique-id": 15,
+            "name": "No movement case",
+            "devicesOnMap": [],
+            "rules": [
+                {
+                    "actions": [
+                        {
+                            "action-id": 8,
+                            "device-id": "timer",
+                            "device-property": "timer_reset",
+                            "action": "Reset Timer",
+                            "data": "&lt;span class=\"mini-icon\"&gt;&lt;span class=\"material-icons device-icon\"&gt;restore&lt;\/span&gt;&lt;\/span&gt;Reset Timer"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Movement -&gt; Reset time",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 1,
+                            "device-id": "cam1",
+                            "device-property": "vmd",
+                            "trigger": "VMD",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 2,
+                            "device-id": "cam2",
+                            "device-property": "vmd",
+                            "trigger": "VMD",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 3,
+                            "device-id": "cam3",
+                            "device-property": "vmd",
+                            "trigger": "PIR",
+                            "data": "",
+                            "parent": 0
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 14,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "test@test.com"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Send email after time",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 13,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "1 h",
+                            "parent": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "next-unique-id": 33,
+            "name": "Use case #2 (fixed)",
+            "devicesOnMap": [],
+            "rules": [
+                {
+                    "actions": [
+                        {
+                            "action-id": 6,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "security@e.mail"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Email when PiP for at least 5 min",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 2,
+                            "device-id": "cam1",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 8
+                        },
+                        {
+                            "trigger-id": 3,
+                            "device-id": "cam2",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 8
+                        },
+                        {
+                            "trigger-id": 4,
+                            "device-id": "cam3",
+                            "device-property": "pir",
+                            "trigger": "PIR",
+                            "data": "",
+                            "parent": 8
+                        },
+                        {
+                            "trigger-id": 5,
+                            "device-id": "cam4",
+                            "device-property": "pir",
+                            "trigger": "PIR",
+                            "data": "",
+                            "parent": 8
+                        },
+                        {
+                            "trigger-id": 7,
+                            "device-id": "AND",
+                            "device-property": "and",
+                            "trigger": "All",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 8,
+                            "device-id": "OR",
+                            "device-property": "or",
+                            "trigger": "Any",
+                            "data": "",
+                            "parent": 7
+                        },
+                        {
+                            "trigger-id": 9,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "5 min",
+                            "parent": 7
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 12,
+                            "device-id": "cam1",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 13,
+                            "device-id": "cam1",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "On"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Speaker+LED when PiP &amp; Rule 1",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 10,
+                            "device-id": "cam1",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 14
+                        },
+                        {
+                            "trigger-id": 11,
+                            "device-id": "include_trigger",
+                            "device-property": "include_trigger",
+                            "trigger": "#1 - Email when PiP for at least 5 min",
+                            "data": "",
+                            "parent": 14
+                        },
+                        {
+                            "trigger-id": 14,
+                            "device-id": "AND",
+                            "device-property": "and",
+                            "trigger": "All",
+                            "data": "",
+                            "parent": 0
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 21,
+                            "device-id": "cam2",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 22,
+                            "device-id": "cam2",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "On"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Speaker+LED when PiP &amp; Rule 1",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 16,
+                            "device-id": "include_trigger",
+                            "device-property": "include_trigger",
+                            "trigger": "#1 - Email when PiP for at least 5 min",
+                            "data": "",
+                            "parent": 17
+                        },
+                        {
+                            "trigger-id": 17,
+                            "device-id": "AND",
+                            "device-property": "and",
+                            "trigger": "All",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 20,
+                            "device-id": "cam2",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 17
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 26,
+                            "device-id": "cam3",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 27,
+                            "device-id": "cam3",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "On"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Speaker+LED when PiP &amp; Rule 1",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 23,
+                            "device-id": "cam3",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 25
+                        },
+                        {
+                            "trigger-id": 24,
+                            "device-id": "include_trigger",
+                            "device-property": "include_trigger",
+                            "trigger": "#1 - Email when PiP for at least 5 min",
+                            "data": "",
+                            "parent": 25
+                        },
+                        {
+                            "trigger-id": 25,
+                            "device-id": "AND",
+                            "device-property": "and",
+                            "trigger": "All",
+                            "data": "",
+                            "parent": 0
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 31,
+                            "device-id": "cam4",
+                            "device-property": "speaker",
+                            "action": "Speaker"
+                        },
+                        {
+                            "action-id": 32,
+                            "device-id": "cam4",
+                            "device-property": "light",
+                            "action": "Light",
+                            "data": "On"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "Speaker+LED when PiP &amp; Rule 1",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 28,
+                            "device-id": "cam4",
+                            "device-property": "pip",
+                            "trigger": "PiP",
+                            "data": "",
+                            "parent": 29
+                        },
+                        {
+                            "trigger-id": 29,
+                            "device-id": "AND",
+                            "device-property": "and",
+                            "trigger": "All",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 30,
+                            "device-id": "include_trigger",
+                            "device-property": "include_trigger",
+                            "trigger": "#1 - Email when PiP for at least 5 min",
+                            "data": "",
+                            "parent": 29
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "next-unique-id": 8,
+            "name": "Simons config",
+            "devicesOnMap": [],
+            "rules": [
+                {
+                    "actions": [
+                        {
+                            "action-id": 4,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "simon@lerpard.se"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "New rule",
+                    "schedule": "Specific",
+                    "triggers": [
+                        {
+                            "trigger-id": 1,
+                            "device-id": "cam1",
+                            "device-property": "tampering",
+                            "trigger": "Tampering",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 3,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "5 min",
+                            "parent": 0
+                        }
+                    ]
+                },
+                {
+                    "actions": [
+                        {
+                            "action-id": 7,
+                            "device-id": "notification",
+                            "device-property": "email",
+                            "action": "Email",
+                            "data": "simon@lerpard.se"
+                        }
+                    ],
+                    "active-actions": "true",
+                    "active-triggers": "true",
+                    "preset-name": "",
+                    "rule-name": "En rolig regel",
+                    "schedule": "Always on",
+                    "triggers": [
+                        {
+                            "trigger-id": 5,
+                            "device-id": "cam3",
+                            "device-property": "tampering",
+                            "trigger": "Tampering",
+                            "data": "",
+                            "parent": 0
+                        },
+                        {
+                            "trigger-id": 6,
+                            "device-id": "timer",
+                            "device-property": "timer",
+                            "trigger": "Timer",
+                            "data": "5 min",
+                            "parent": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "actions": [
+                {
+                    "action-id": 14,
+                    "device-id": "notification",
+                    "device-property": "email",
+                    "action": "Email",
+                    "data": "test@test.com"
+                }
+            ],
+            "active-actions": "true",
+            "active-triggers": "true",
+            "preset-name": "",
+            "rule-name": "Send email after time",
+            "schedule": "Always on",
+            "triggers": [
+                {
+                    "trigger-id": 13,
+                    "device-id": "timer",
+                    "device-property": "timer",
+                    "trigger": "Timer",
+                    "data": "1 h",
+                    "parent": 0
+                }
+            ]
+        },
+        {
+            "actions": [
+                {
+                    "action-id": 7,
+                    "device-id": "notification",
+                    "device-property": "email",
+                    "action": "Email",
+                    "data": "simon@lerpard.se"
+                }
+            ],
+            "active-actions": "true",
+            "active-triggers": "true",
+            "preset-name": "",
+            "rule-name": "En rolig regel",
+            "schedule": "Always on",
+            "triggers": [
+                {
+                    "trigger-id": 5,
+                    "device-id": "cam3",
+                    "device-property": "tampering",
+                    "trigger": "Tampering",
+                    "data": "",
+                    "parent": 0
+                },
+                {
+                    "trigger-id": 6,
+                    "device-id": "timer",
+                    "device-property": "timer",
+                    "trigger": "Timer",
+                    "data": "5 min",
+                    "parent": 0
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,230 @@
+#menu-configs{
+  float:left;
+  margin-top:12px;
+  margin-left:10px;
+}
+
+#config-name p{
+  padding:5px;
+  border-width:1px;
+  border-style:dashed;
+}
+
+#config-overview{
+  margin:20px;
+  width:1120px;
+}
+
+#config-overview td{
+  zoom:75%;
+}
+
+#config-overview-scenario td{
+  zoom:75%;
+}
+
+#config-overview-relation td{
+  zoom:75%;
+}
+
+#config-box{
+  border:1px solid black;
+  height:400px;
+  width:100%;
+  display:block;
+  overflow:scroll;
+}
+
+#main_config[data-page="overview"] #config-box{
+  border:1px solid black;
+  height:580px;
+  width:100%;
+  display:block;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+#main_config[data-page="relation"] #config-box{
+  border:1px solid black;
+  height:560px;
+  width:100%;
+  display:block;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+
+#config-overview tbody th.device-trash{
+  opacity:0;
+}
+
+#config-overview-scenario tbody th.device-trash{
+  opacity:0;
+}
+
+#config-overview-relation tbody th.device-trash{
+  opacity:0;
+}
+.main-window{
+  margin-top:30px;
+  height:800px;
+  border:1px solid #ccc;
+}
+
+.local-config-navigation{
+  padding-left:35px;
+}
+
+.local-config-navigation h3{
+  text-align: center;
+}
+
+.list-group-root .list-group-item.headline{
+  font-weight: bold;
+  pointer-events: none; /* Disables for example the click funcitonality */
+}
+
+.info-string{
+  margin-top:15px;
+}
+
+h2.navigation-name{
+  text-align: center;
+}
+
+.navigation-name .second-title{
+  font-size: 14pt;
+}
+
+.btn-margin{
+  margin-top:15px;
+}
+
+.center-btns{
+  text-align: center;
+}
+
+.center-btns > :not(.trigger-group):not(.relation-group){
+  margin-top:125px;
+  text-align: center;
+}
+
+.checkbox.select-triggers span.trash{
+  color: rgb(255, 0, 0);
+  padding-left: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+.chosen-actions{
+  overflow:auto;
+  word-wrap: break-word;
+}
+
+.center-btns input::-webkit-input-placeholder { /* Center align the placeholder text */
+   text-align: center;
+}
+
+.center-btns input:-moz-placeholder { /* Center align the placeholder text */ /* Firefox 18- */
+   text-align: center;
+}
+
+.center-btns input::-moz-placeholder { /* Center align the placeholder text */ /* Firefox 19+ */
+   text-align: center;
+}
+
+.center-btns input:-ms-input-placeholder { /* Center align the placeholder text */
+   text-align: center;
+}
+
+.ta-box-wrapper{
+  float:left;
+  display:inline-block;
+  min-height:100px;
+}
+
+.ta-box-wrapper.and-or{
+  margin:5px;
+  padding:5px;
+  border:1px solid black;
+}
+
+.available-triggers .device-icon:not(.glyphicon),
+.available-actions .device-icon:not(.glyphicon),
+.available-devices .device-icon:not(.glyphicon){
+  zoom:50%;
+}
+
+
+table.ta-box{
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+
+.ta-box tr{
+  border-bottom: 1px solid black;
+}
+
+.ta-box td:last-child, .ta-box th:last-child{
+  padding-right:10px;
+}
+
+.ta-box .device-icon-th span.glyphicon {
+  font-size:12pt;
+  padding:5px;
+}
+.ta-box .device-icon-th span.material-icons {
+  font-size:16pt;
+  padding:5px;
+}
+
+.ta-box .type-icon-td span.glyphicon {
+  font-size:10pt;
+}
+.ta-box .type-icon-td span.material-icons {
+  font-size:12pt;
+  padding:5px;
+  padding-left:8px;
+}
+
+.ta-box .type-icon-td span.glyphicon-log-out {
+  padding-left:8px;
+}
+
+.device-trash span.trash{
+  color: rgb(255, 0, 0);
+  padding-left: 5px;
+  float: right;
+  cursor: pointer;
+}
+
+/* Sublists etc.. */
+.just-padding {
+  padding: 15px;
+}
+
+.list-group.list-group-root {
+  padding: 0;
+  overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+  margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+  border-radius: 0;
+  border-width: 1px 0 0 0;
+}
+
+.list-group.list-group-root > .list-group-item:first-child {
+  border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group > .list-group-item {
+  padding-left: 30px;
+}
+
+.list-group.list-group-root > .list-group > .list-group > .list-group-item {
+  padding-left: 45px;
+}
