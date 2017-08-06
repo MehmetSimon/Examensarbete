@@ -1,5 +1,5 @@
 # Examensarbete - Bachelor's thesis in computer science
-Bachelor's thesis - Implemented interfaces and test
+Bachelor's thesis - Developed interfaces and usability test source + screenshots
 
 This project includes the developed interfaces (prototypes) in this thesis including the test for the usability test.
 
