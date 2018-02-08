@@ -7,7 +7,7 @@ This project includes the developed interfaces (prototypes) in this thesis inclu
 Simon Lerpard and Mehmet Micoogullari
 
 You can find the thesis report on the following page:
-https://placeholder.com/
+https://lup.lub.lu.se/student-papers/search/publication/8924098
 
 ### Interface 1 - Advanced view
 ![Screenshot of the advanced view in interface 1 for the use case 'Break-in protection'](/Screenshots/Interface%201/Use%20Case%20Example%20Start%20Page%20Advanced%20View.png "Interface 1 - Advanced view")
